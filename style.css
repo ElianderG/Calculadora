@@ -1,0 +1,47 @@
+head{
+
+}
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: gray;
+    border-radius: 10px;
+    width: 95%;
+    padding: 10px;
+    margin: auto;
+}
+
+table, th{
+    border-radius: 10px;
+    border: groove;
+    border-color: rgb(1, 1, 156);
+    text-align: center;
+}
+
+tr, td{
+    border-radius: 5px;
+    border: groove;  
+    border-color: rgb(179, 179, 255);
+    width: 25%;
+    text-align: center;    
+}
+
+tr:hover, td:hover{
+    border-radius: 5px;
+    border: groove;  
+    border-color: rgb(0, 0, 255);
+    width: 25%;
+    text-align: center;    
+}
+
+tr:active, td:active{
+    border-radius: 5px;
+    border: groove;  
+    border-color: rgb(13, 255, 0);
+    width: 25%;
+    text-align: center;    
+}
