@@ -19,24 +19,24 @@
             <center>
             <table>
                 <tr>
-                    <th colspan="4">
-                        <input type="number" name="display" id="display" value="0">
+                    <th colspan="4" style="background-color: white;">
+                        <p name="display" id="display" style="text-align:right; color:black;">0</p>
                     </th>
                 </tr>
                 <tr>
-                    <td onclick="cleanall()">AC</td><td onclick="bracall()">( )</td><td>%</td><td>/</td>
+                    <td onclick="cleanall()">AC</td><td onclick="bracall()">( )</td><td>%</td><td onclick="entop('/')">/</td>
                 </tr>
                 <tr>
-                    <td onclick="entnum(7)">7</td><td onclick="entnum(8)">8</td><td onclick="entnum(9)">9</td><td>X</td>
+                    <td onclick="entnum(7)">7</td><td onclick="entnum(8)">8</td><td onclick="entnum(9)">9</td><td onclick="entop('*')">X</td>
                 </tr>
                 <tr>
-                    <td onclick="entnum(4)">4</td><td onclick="entnum(5)">5</td><td onclick="entnum(6)">6</td><td>-</td>
+                    <td onclick="entnum(4)">4</td><td onclick="entnum(5)">5</td><td onclick="entnum(6)">6</td><td onclick="entop('-')">-</td>
                 </tr>
                 <tr>
-                    <td onclick="entnum(1)">1</td><td onclick="entnum(2)">2</td><td onclick="entnum(3)">3</td><td>+</td>
+                    <td onclick="entnum(1)">1</td><td onclick="entnum(2)">2</td><td onclick="entnum(3)">3</td><td onclick="entop('+')">+</td>
                 </tr>
                 <tr>
-                    <td onclick="entnum(0)">0</td><td>,</td><td><<</td><td>=</td>
+                    <td onclick="entnum(0)">0</td><td onclick="entop('.')">,</td><td><<</td><td onclick="showresult()">=</td>
                 </tr>
             </table>
             </center>
